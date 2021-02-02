@@ -4,7 +4,11 @@
 
 > This project is the Captstone for the HTML and CSS  curricullum. It is an ecommerce site that enable the user to buy new and or used items.
 
-![screenshot](assets/images/screenshot1.PNG)
+Home page
+![screenshot](assets/images/screenshot2.PNG)
+
+Result page
+![screenshot](assets/images/screenshot3.PNG)
 
 The navigation, main content and the footer were achieved using HTML, CSS and Bootstrap 
 
@@ -13,6 +17,7 @@ The navigation, main content and the footer were achieved using HTML, CSS and Bo
 - HTML
 - CSS
 - BOOTSTRAP
+- UIKIT
 
 ## Live Demo
 
