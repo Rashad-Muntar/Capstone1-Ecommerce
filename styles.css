@@ -1,5 +1,5 @@
 * {
-      font-family: "Metropolis-Medium", sans-serif;
+  font-family: "Metropolis-Medium", sans-serif;
 }
 
 body {
@@ -19,49 +19,61 @@ body {
 
 nav {
   background-color: #383838;
-   height: 60px;
-   color: gray;
+  height: 60px;
+  color: gray;
 }
 
-.user-img{
+.user-img {
   width: 40px;
   border-radius: 50px;
 }
 
-nav .wrapper{
- width: 80vw;
- margin: 0 auto;
- height: 100%;
- align-items: center;
+nav .wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
 }
 
-nav .wrapper a{
- color: gray;
- padding-right: 15px;
- font-weight: 600;
- text-decoration: none;
+form a {
+  text-decoration: none;
+  color: white;
+  background-color: #383838;
+  padding: 7px 12px;
+  margin-left: 5px;
 }
 
-nav .wrapper .user{
- color: white;
+nav .wrapper a {
+  color: gray;
+  padding-right: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav .wrapper .user {
+  color: white;
 }
 
 nav .wrapper a:hover {
   color: #d35266;
 }
 
-nav .wrapper .right-links{
- align-items: center;
+nav .wrapper .right-links {
+  align-items: center;
 }
 
-nav .wrapper .right-links .brand{
- color: white;
- font-size: 1.3em;
+nav .wrapper .right-links .brand {
+  color: white;
+  font-size: 1.3em;
 }
 
-nav .wrapper .right-links .brand i{
-color: #d35266;
-margin-right: 7px;
+footer .socials i {
+  padding-left: 20px;
+}
+
+nav .wrapper .right-links .brand i {
+  color: #d35266;
+  margin-right: 7px;
 }
 
 .badge {
@@ -72,7 +84,7 @@ margin-right: 7px;
   height: 13px;
 }
 
-nav .wrapper .right-links .post{
+nav .wrapper .right-links .post {
   background-color: #d35266;
   color: white;
   font-size: 0.8em;
@@ -106,14 +118,6 @@ nav .wrapper .right-links .post{
 .jumbotron form input:focus,
 select:focus {
   outline: none;
-}
-
-form a {
-  text-decoration: none;
-  color: white;
-  background-color: #383838;
-  padding: 7px 12px;
-  margin-left: 5px;
 }
 
 .cards {
@@ -186,9 +190,9 @@ form a {
 }
 
 .home-slider {
-background-color: white;
-height: 300px;
-padding: 20px 0;
+  background-color: white;
+  height: 300px;
+  padding: 20px 0;
 }
 
 .slider-wrapper {
@@ -198,14 +202,21 @@ padding: 20px 0;
   height: 230px;
 }
 
-.slider-wrapper .heading-text{
-border: none;
-color: #888;
-padding: 0;
-margin-bottom: 15px;
+.slider-wrapper .heading-text {
+  border: none;
+  color: #888;
+  padding: 0;
+  margin-bottom: 15px;
 }
 
-.slider-wrapper .horicard{
+.horicard {
+  height: 180px;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 15px 0;
+}
+
+.slider-wrapper .horicard {
   height: 230px;
   border: none;
   padding: 0;
@@ -213,19 +224,19 @@ margin-bottom: 15px;
   background-color: white;
 }
 
-.slider-wrapper .horicard .title{
+.slider-wrapper .horicard .title {
   color: #d35266;
   font-size: 1.3em;
   font-weight: 700;
 }
 
-.slider-wrapper .horicard .buy-prince{
+.slider-wrapper .horicard .buy-prince {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.slider-wrapper .horicard .price{
+.slider-wrapper .horicard .price {
   background-color: #d35266;
   color: white;
   padding: 7px 15px;
@@ -236,17 +247,23 @@ margin-bottom: 15px;
   text-decoration: none;
 }
 
-.slider-wrapper .horicard .card-text{
+.text-body .card-text {
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+}
+
+.slider-wrapper .horicard .card-text {
   font-size: 1em;
   padding-bottom: 10px;
 }
 
-.uk-light .uk-slidenav{
+.uk-light .uk-slidenav {
   color: #d35266;
   border: 1px solid #d888;
   border-radius: 100%;
   top: 50%;
-   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
 }
 
 /* search result page  */
@@ -257,9 +274,10 @@ margin-bottom: 15px;
   align-items: center;
 }
 
-.top-check label{
+.top-check label {
   margin-right: 10px;
 }
+
 .result-wrapper {
   background-color: rgb(233, 233, 233);
   width: 80vw;
@@ -272,7 +290,7 @@ margin-bottom: 15px;
   padding-right: 20px;
 }
 
-.result-wrapper .sidebar form{
+.result-wrapper .sidebar form {
   margin-bottom: 20px;
 }
 
@@ -280,25 +298,25 @@ margin-bottom: 15px;
   width: 73%;
 }
 
-.pagin{
+.pagin {
   width: 15%;
   margin: 0 auto;
   margin-top: 30px;
-} 
+}
 
-.pagin .nums{
- background-color: white;
- border: 1px solid #888;
- padding: 0 10px;
- margin: 0 5px;
- border-radius: 3px;
-} 
+.pagin .nums {
+  background-color: white;
+  border: 1px solid #888;
+  padding: 0 10px;
+  margin: 0 5px;
+  border-radius: 3px;
+}
 
-.pagin .acive-one{
- background-color: #d35266;
- border: 1px solid #888;
- color: white;
-} 
+.pagin .acive-one {
+  background-color: #d35266;
+  border: 1px solid #888;
+  color: white;
+}
 
 .heading {
   font-size: 1.1em;
@@ -308,14 +326,7 @@ margin-bottom: 15px;
   border-bottom: 1px solid #888;
 }
 
-.horicard {
-  height: 180px;
-  justify-content: space-between;
-  border-bottom: 1px solid gray;
-  padding: 15px 0;
-}
-
- .horicard img {
+.horicard img {
   width: 25%;
 }
 
@@ -330,18 +341,17 @@ margin-bottom: 15px;
   margin: 0;
 }
 
-.text-body .card-text {
-  font-size: 0.9em;
-  padding: 0;
-  margin: 0;
-}
-
 .text-body .card-text .location {
   margin-top: 10px;
 }
 
 .search-cont span {
   color: black;
+}
+
+footer .fa-artstation span {
+  font-family: "Metropolis-Medium", sans-serif;
+  padding-left: 10px;
 }
 
 footer section .country span {
@@ -370,10 +380,6 @@ footer section .country span {
   color: gray;
   font-weight: 600;
   font-size: 0.9em;
-}
-
-footer .socials i {
-  padding-left: 20px;
 }
 
 .result-wrapper .main-content .horicard .title-wrapper i {
@@ -426,11 +432,6 @@ footer .fa-artstation {
   color: #888;
 }
 
-footer .fa-artstation span{
-  font-family: "Metropolis-Medium", sans-serif;
-  padding-left: 10px;
-}
-
 footer section > .logo-section,
 .category,
 .country {
@@ -449,7 +450,7 @@ footer section .country {
   justify-content: center;
 }
 
-footer section .country .item{
+footer section .country .item {
   font-size: 1em;
   color: #d35266;
   font-weight: 700;
@@ -465,9 +466,9 @@ footer section .category ul li {
   list-style: none;
 }
 
-*+p {
-      margin-top: 1px;
-  }
+* + p {
+  margin-top: 1px;
+}
 
 footer .social-footer {
   display: flex;
@@ -487,12 +488,12 @@ footer .socials {
   color: gray;
 }
 
-.details{
+.details {
   width: 70vw;
   margin: 0 auto;
 }
 
-.details .img-container{
+.details .img-container {
   width: 60vw;
   margin: 0 auto;
 }
@@ -504,8 +505,7 @@ footer .socials {
 
   footer section {
     width: 90vw;
-}
-
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -519,13 +519,13 @@ footer .socials {
 
   .slider-wrapper .horicard {
     height: 182px;
-}
+  }
 
   .home-slider {
     background-color: white;
     height: 251px;
     padding: 20px 0;
-}
+  }
 
   footer .social-footer {
     flex-direction: column;
@@ -579,35 +579,35 @@ footer .socials {
 
   footer section {
     width: 95vw;
-}
+  }
 
-footer section .country .item {
+  footer section .country .item {
     padding: 1px 2px;
-}
-
+  }
 }
 
 @media screen and (max-width: 468px) {
-nav .wrapper {
+  nav .wrapper {
     width: 95vw;
-}
+  }
 
-nav .wrapper .right-links .brand {
+  nav .wrapper .right-links .brand {
     font-size: 1em;
-}
+  }
 
-nav .wrapper a {
+  nav .wrapper a {
     font-weight: 700;
     font-size: 0.6em;
-}
+  }
 
-.home-slider {
-  display: none;
-}
+  .home-slider {
+    display: none;
+  }
 
-.mt-5 {
+  .mt-5 {
     margin-top: 1rem !important;
-}
+  }
+
   footer section .logo-section,
   .category,
   .country {
