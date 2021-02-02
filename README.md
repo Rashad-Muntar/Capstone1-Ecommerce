@@ -17,7 +17,7 @@ The navigation, main content and the footer were achieved using HTML, CSS and Bo
 - HTML
 - CSS
 - BOOTSTRAP
-- UIKIT
+- Glide
 
 ## Live Demo
 
