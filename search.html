@@ -15,43 +15,32 @@
 
   <body>
 
-<nav class="navbar navbar-expand-lg">
-  <div class="nav-container d-flex justify-content-between ">
-    <a class="navbar-brand" href="index.html"></a>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           <li class="nav-item">
-          <a class="nav-link" href=""><i class="fas fa-home"></i> Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=""><i class="fas fa-puzzle-piece"></i> Collections</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=""><i class="fas fa-shopping-cart"></i> Purchase List</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link post d-flex justify-content-between align-items-center d-none d-sm-block d-sm-none d-md-block" href="#">POST AN ADD</a>
-        </li>
-      </ul>
-      <div class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-envelope"></i></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Fati Doe</a>
-              </li>
-          </ul>
-      </div>
+<nav>
+  <div class="wrapper flexBetween">
+    <div class="right-links flexBetween">
+       <a class="brand" href="index.html"><i class="fab fa-artstation"></i>ZATTIX</a>
+        <a href=""><i class="fas fa-home"></i> Home</a>
+        <a href=""><i class="fas fa-puzzle-piece"></i> Collections</a>
+          <a href=""><i class="fas fa-shopping-cart"></i> Purchase List</a>
+          <a class="post d-flex justify-content-between align-items-center d-none d-sm-block d-sm-none d-md-block" href="#">POST AN AD</a>
+    </div>
+    <div class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+      <a class="mail" aria-current="page" href="#"><i class="fas fa-envelope position-relative">
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">4<span class="visually-hidden">unread messages</span></span>
+      </i></a>
+      <a class="user" aria-current="page" href="#">Fati Doe</a>
+      <img class="user-img" src="assets/images/user.jpg" alt="">
+    </div>
   </div>
 </nav>
 
 
 <main>
-<div class="jumbotron mb-5 jumbotron-fluid d-sm-none d-md-block d-none d-sm-block">
-  <div class="container d-flex justify-content-between align-items-center flex-column">
+<div class="jumbotron search-jumbo mb-5 jumbotron-fluid d-sm-none d-md-block d-none d-sm-block">
+  <div class="container d-flex flex-column">
     <h1 class="display-4">ZATTIX</h1>
     <p class="lead">Buying and Selling Couldn't be Simpler than this!</p>
-    <form action="#" class="d-flex justify-content-between">
+    <form action="#" class="d-flex">
         <select class="" aria-label=".form-select-lg example">
             <option selected>All Departments</option>
             <option value="1">Painting</option>
@@ -73,35 +62,34 @@
 
 <section class="result-wrapper flexBetween">
     <section class="sidebar">
-        <form action="" class="flex">
+        <form action="" class="top-check">
              <input type="checkbox" id="Old" name="new" value="Old">
             <label for="Old">Old</label><br>
              <input type="checkbox" id="vehicle1" name="new" value="New">
             <label for="new"> New</label><br>
         </form>
-        <hr>
+        
         <div class="type">
             <h5 class="heading">Type</h5>
             <form action="">
-             <input type="checkbox" id="Shirt" name="Shirt" value="Shirt">
-            <label for="Shirt">Shirt</label><br>
-             <input type="checkbox" id="Dress" name="dress" value="Dress">
-            <label for="Dress"> Dress</label><br>
-            <input type="checkbox" id="Shoe" name="Shoe" value="Shoe">
-            <label for="Shoe">Shoe</label><br>
-        </form>
+              <input type="checkbox" id="Shirt" name="Shirt" value="Shirt">
+              <label for="Shirt">Shirt</label><br>
+              <input type="checkbox" id="Dress" name="dress" value="Dress">
+              <label for="Dress"> Dress</label><br>
+              <input type="checkbox" id="Shoe" name="Shoe" value="Shoe">
+              <label for="Shoe">Shoe</label><br>
+          </form>
         </div>
-        <hr>
         <div class="size">
-            <h5>Size</h5>
+            <h5 class="heading">Size</h5>
             <form action="">
-             <input type="checkbox" id="Small" name="Small" value="Small">
-            <label for="Small">Small</label><br>
-             <input type="checkbox" id="Large" name="Large" value="Large">
-            <label for="Large">Large</label><br>
-            <input type="checkbox" id="Extra Large" name="Extra Large" value="Extra Large">
-            <label for="Extra Large">Extra Large</label><br>
-        </form>
+              <input type="checkbox" id="Small" name="Small" value="Small">
+              <label for="Small">Small</label><br>
+              <input type="checkbox" id="Large" name="Large" value="Large">
+              <label for="Large">Large</label><br>
+              <input type="checkbox" id="Extra Large" name="Extra Large" value="Extra Large">
+              <label for="Extra Large">Extra Large</label><br>
+            </form>
         </div>
     </section>
 
@@ -228,7 +216,14 @@
                 </div>
             </div>
         </div>
-
+      <section class="pagin flexBetween">
+        <div class="nums">1</div>
+        <div class="nums acive-one">2</div>
+        <div class="nums">3</div>
+        <div class="nums">4</div>
+        <div>...</div>
+        <div class="nums">7</div>
+      </section>
     </section>
 </section>
 
@@ -395,7 +390,7 @@
 <footer>
   <section>
     <div class="logo-section">
-      <i class="fab fa-artstation"></i>
+      <i class="fab fa-artstation"><span>ZATTIX</span></i>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quia nesciunt similique non distinctio? Est, vero quaerat nobis beatae alias sed labore dolorem, eos qui consequatur quia error neque exercitationem.</p>
     </div>
     <div class="category">
@@ -424,13 +419,13 @@
       </div>
     </div>
     <div class="country">
-      <h3>COUNTRY <span>Ghana</span></h3>
-      <h3>LANGUAGE<span>English</span></h3>
-      <h3>CURRENCY<span>Ghana Cedis</span></h3>
+      <p class="item">COUNTRY <span>Ghana</span></p>
+      <p class="item">LANGUAGE<span>English</span></p>
+      <p class="item">CURRENCY<span>Ghana Cedis</span></p>
     </div>
   </section>
 
-  <section class="social-footer flexBetween">
+  <section class="social-footer">
     <small>Copyright © 2015 Zattix.com. Design and built by Rashad-Muntar</small>
     <div class="socials">
       <a href=""><i class="fab fa-linkedin-in"></i></a>
