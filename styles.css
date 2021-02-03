@@ -414,12 +414,6 @@ footer section h5 {
   width: 80%;
 }
 
-.for-mobile {
-  display: none;
-}
-
-/* footer styling */
-
 footer {
   margin-top: 50px;
   border-top: 1px solid gray;
@@ -513,6 +507,12 @@ footer .socials {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1300px) {
+  .for-mobile {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .result-wrapper {
     width: 90vw;
@@ -520,6 +520,10 @@ footer .socials {
 
   footer section {
     width: 90vw;
+  }
+
+  .for-mobile {
+    display: none;
   }
 }
 
@@ -567,25 +571,15 @@ footer .socials {
   }
 
   .for-mobile {
-    display: block;
-    width: 95vw;
-    margin: 0 auto;
+    display: none;
   }
 
   .card {
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
   }
 
-  .main-content {
-    display: none;
-  }
-
-  .sidebar {
-    display: none;
-  }
-
   .cat-card .card-img-top {
-    height: 240px;
+    height: 180px;
   }
 
   footer section {
@@ -602,6 +596,14 @@ footer .socials {
     width: 95vw;
   }
 
+  .main-content {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
   nav .wrapper .right-links .brand {
     font-size: 1em;
   }
@@ -615,10 +617,6 @@ footer .socials {
     display: none;
   }
 
-  .mt-5 {
-    margin-top: 1rem !important;
-  }
-
   footer section .logo-section,
   .category,
   .country {
@@ -627,20 +625,54 @@ footer .socials {
 
   .for-mobile {
     display: block;
+    padding: 0 10px;
   }
-}
 
-.caro1 {
-  height: 100%;
-  background-color: red;
-}
+  .sqr-card {
+    width: 48vw;
+    margin-bottom: 7px;
+  }
 
-.caro2 {
-  height: 100%;
-  background-color: blue;
-}
+  .cat-card .card-img-top {
+    height: 150px;
+  }
 
-.caro3 {
-  height: 100%;
-  background-color: green;
+  .searc-bar {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .searc-bar select {
+    width: 95vw;
+    height: 35px;
+    margin-bottom: 5px;
+  }
+
+  .jumbotron {
+    padding: 10px 5px;
+    margin: 0 auto;
+    justify-content: flex-start;
+  }
+
+  .jumbotron form input {
+    width: 95vw;
+    margin-bottom: 5px;
+  }
+
+  .jumbotron .container {
+    align-items: start;
+    padding-left: var(--bs-gutter-x, 0.3rem);
+  }
+
+  .h5,
+  h5 {
+    font-size: 1rem;
+  }
+
+  .jumbotron form .search {
+    width: 95vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
 }

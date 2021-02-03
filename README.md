@@ -17,7 +17,15 @@ The navigation, main content and the footer were achieved using HTML, CSS and Bo
 - HTML
 - CSS
 - BOOTSTRAP
-- Glide
+- GLIDE
+
+## Dependencies
+
+- Stylint
+    1. Run (npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator)
+- Webhint
+    2. Run (npm install --save-dev hint@6.0.x)
+
 
 ## Live Demo
 
@@ -45,7 +53,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Micoverse team](https://microverse.pathwright.com/library/new-technical-curriculum/177956/path/step/104246979/)
+- [Mohammed Awad(Zattix.com)](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## 📝 License
 ## Credit to Esty for the images used
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
