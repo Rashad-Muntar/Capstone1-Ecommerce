@@ -43,6 +43,11 @@ form a {
   margin-left: 5px;
 }
 
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
 nav .wrapper a {
   color: gray;
   padding-right: 15px;
@@ -52,6 +57,10 @@ nav .wrapper a {
 
 nav .wrapper .user {
   color: white;
+}
+
+footer a:hover {
+  color: #d35266;
 }
 
 nav .wrapper a:hover {
@@ -634,7 +643,7 @@ footer .socials {
   }
 
   .cat-card .card-img-top {
-    height: 150px;
+    height: 130px;
   }
 
   .searc-bar {
