@@ -22,9 +22,9 @@ The navigation, main content and the footer were achieved using HTML, CSS and Bo
 ## Dependencies
 
 - Stylint
-    * Run (npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator)
+    * Run `npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator`
 - Webhint
-    * Run (npm install --save-dev hint@6.0.x)
+    * Run `npm install --save-dev hint@6.0.x`
 
 
 ## Live Demo
@@ -44,7 +44,7 @@ The navigation, main content and the footer were achieved using HTML, CSS and Bo
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/issues).
 
 ## Show your support
 
